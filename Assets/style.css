@@ -164,7 +164,8 @@ footer h3 {
 @media screen and (max-width: 992px) {
     .work2,
     .work {
-      width: 50%;
+      width: 100%;
+      flex-wrap: wrap;
     }
     /* Change the header color */
     header {
@@ -177,6 +178,7 @@ footer h3 {
     .work2,
     .work {
       width: 100%;
+   
     }
     /* Change the header color */
     header {
