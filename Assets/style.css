@@ -40,6 +40,15 @@ h1 {
     float: left;
 }
 
+header{
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #555555;
+    color: rgb(248, 255, 248);
+}
+
 .Avatar {
     
      
@@ -54,14 +63,6 @@ h1 {
 }
 
 
-header{
-    justify-content: space-between;
-    display: flex;
-    padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #555555;
-    color: rgb(248, 255, 248);
-}
 
 nav  ul {
     list-style-type: none;
