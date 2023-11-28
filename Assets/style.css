@@ -48,8 +48,7 @@ h1 {
     margin-bottom: 25px;
     background-image: url("../assets/images/background.jpg");
     background-size: cover;
-    background-position: bottom;
-    object-fit: contain;
+    background-position: center;
 }
 
 
