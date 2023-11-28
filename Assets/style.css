@@ -1,8 +1,8 @@
 
 
 :root {
-    --white: #06005a;
-    --dark-blue: #f7f7f7;
+    --blue: #06005a;
+    --white: #f7f7f7;
     /* You can use it with any value that is repeated throughout the sheet */
     --border-radius: 50px;
   }
@@ -22,15 +22,15 @@ nav {
     padding-top: 15px;
 }
 nav a {
-    color: var(--dark-blue);
+    color: var(--white);
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
   }
   
   nav a:hover {
-    background-color: var(--white);
-    color: var(--dark-blue);
+    background-color: var(--blue);
+    color: var(--white);
   }
   
   
@@ -55,10 +55,10 @@ header{
     height: 400px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../Assets/images/HDTN7334.JPG");
+    background-image: url("../Assets/images/background.jpg");
     background-size: cover;
-    background-position: bottom;
-   
+    background-position: center;
+  
    
 }
 
@@ -138,14 +138,14 @@ h2{
 }
 .work img:hover { 
     color: #111; 
-    background: rgb(61, 47, 255); 
-    box-shadow: 0 0 100px rgb(61, 47, 255); 
+    background: rgb(15, 4, 175); 
+    box-shadow: 0 0 100px rgb(15, 4, 175); 
 } 
 
 .work2 img:hover { 
     color: #111; 
-    background: rgb(61, 47, 255); 
-    box-shadow: 0 0 100px rgb(61, 47, 255); 
+    background: rgb(15, 4, 175); 
+    box-shadow: 0 0 100px rgb(15, 4, 175); 
 } 
 .work img{
 
