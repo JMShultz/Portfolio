@@ -1,10 +1,10 @@
 # Portfolio
-This aplication will allow clients to understand about social media marketing and search engine optimization. As well as online repution management.
+This aplication will allow employers to view my current and future work.
 
 
-   <img src="./assets/images/digital-marketing-meeting.jpg">
+   <img src="./Assets/images/Screenshot 2023-11-28 185653.png">
 
  
  
   link to my deployed application:
-[HomeWork1:Horiseon](https://jmshultz.github.io/Homework1/)
+[Portfolio](https://jmshultz.github.io/Portfolio/)

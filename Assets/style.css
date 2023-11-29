@@ -3,20 +3,49 @@
 :root {
     --blue: #06005a;
     --white: #f7f7f7;
-    /* You can use it with any value that is repeated throughout the sheet */
+    /* You can use this in anypart of css.*/
     --border-radius: 50px;
   }
+
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
    
 }
-
+ /* this will set the background color for the website.*/
 body {
     background-color: #c5bfbf;
 }
 /* Class selector */
+ /* header will display grey background with my name and links*/
+header{
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #555555;
+    color: rgb(248, 255, 248);
+}
+ /* the main section of the page.*/
+main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 15px;
+    
+}
+
+ /* this will set the h1 tag with pixle size and make it float left.*/
+h1 {
+    display: flex;
+    font-size: 48px;
+    float: left;
+}
+
+ /* this will allow you to click on work or resume and add background and hover feature.*/
 nav {
     display: flex;
     padding-top: 15px;
@@ -34,36 +63,6 @@ nav a {
   }
   
   
-h1 {
-    display: flex;
-    font-size: 48px;
-    float: left;
-}
-
-header{
-    justify-content: space-between;
-    display: flex;
-    padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #555555;
-    color: rgb(248, 255, 248);
-}
-
-.Avatar {
-    
-     
-    height: 400px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../Assets/images/background.jpg");
-    background-size: cover;
-    background-position: center;
-  
-   
-}
-
-
-
 nav  ul {
     list-style-type: none;
 }
@@ -77,6 +76,23 @@ a {
     color:rgb(233, 233, 233);
     text-decoration: none;
 }
+
+ /* this will put a background image before the about me page.*/
+.picture {
+    
+     
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Assets/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+  
+   
+}
+
+
+ /* this will make the text centered on the page and ajust when sized.*/
 .AboutMe{
   
    text-align: center;
@@ -85,7 +101,7 @@ a {
    
 
 }
-
+ /* set the color of mywork to white.and center the h2 tag on the page*/
 .mywork{
     padding-top:  20px;
     text-align: center;
@@ -99,15 +115,8 @@ p {
    
     font-size: 20px;
 }
-main{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 15px;
-    
-}
 
+ /* this will center,add padding to the first image/link.*/
 .work {
     text-align: center;
   padding-top:  20px;
@@ -119,6 +128,7 @@ main{
    
     
 }
+ /* Added fonts,color and display to the h2 tag.*/
 h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(247, 247, 247);
@@ -127,6 +137,8 @@ h2{
    float: 10px;
    
 }
+
+ /* this align the other 4 links/pictures to center and flex wrap them.*/
 .work2 {
    
     display: flex;
@@ -136,17 +148,23 @@ h2{
     
     
 }
+
+ /* added hover to images to light up when on them.*/
 .work img:hover { 
     color: #111; 
     background: rgb(15, 4, 175); 
     box-shadow: 0 0 100px rgb(15, 4, 175); 
 } 
 
+
+/* added hover to images to light up when on them.*/
 .work2 img:hover { 
     color: #111; 
     background: rgb(15, 4, 175); 
     box-shadow: 0 0 100px rgb(15, 4, 175); 
 } 
+
+/* adjusted first image size,border and boxshadow.*/
 .work img{
 
    width: 950px;
@@ -161,6 +179,7 @@ h2{
   
 }
 
+/* this will adjusted other four images size,border and boxshadow.*/
 .work2 img {
     width: 600px;
     height: 230px;
@@ -175,6 +194,7 @@ h2{
  }
  
  
+ /* added padding to the right centered items and display flex.*/
 .contact {
    
   padding-right:  100px;
@@ -185,7 +205,7 @@ h2{
 }   
 
 
-
+/* gave footer a font family, display flex and added padding.*/
 footer {
     display: flex;
     padding: 30px;
@@ -199,7 +219,7 @@ footer h3 {
 }
 
 
-/* Cards are split into two columns at 992px or smaller */
+/* images will adjust size at 992px or smaller */
 @media screen and (max-width: 992px) {
     .work2,
     .work {
@@ -210,14 +230,14 @@ footer h3 {
    
   }
   
-  /* Cards are stacked on top of each other at 768px or smaller */
+  /* images and page will adjust size at 768px or smaller */
   @media screen and (max-width: 768px) {
     .work2,
     .work {
       width: 100%;
    
     }
-    /* Change the header color */
+    /* will change the header color. */
     header {
       background: #8ac4ff;
     }
